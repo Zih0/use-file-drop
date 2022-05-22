@@ -1,0 +1,37 @@
+{
+  "name": "@zih0/use-file-drop",
+  "version": "0.0.3",
+  "description": "react hook for drag & drop input file",
+  "homepage": "https://github.com/Zih0/use-file-drop",
+  "source": "src/index.ts",
+  "main": "dist/index.js",
+  "module": "dist/index.esm.js",
+  "types": "dist/index.d.ts",
+  "files": [
+    "dist"
+  ],
+  "scripts": {
+    "build": "rm -rf ./dist && microbundle --no-sourcemap",
+    "start": "microbundle watch"
+  },
+  "keywords": [
+    "react",
+    "hook",
+    "drag-drop",
+    "input file"
+  ],
+  "author": "zih0",
+  "license": "MIT",
+  "devDependencies": {
+    "@types/react": "^18.0.9",
+    "@types/react-dom": "^18.0.4",
+    "microbundle": "^0.15.0",
+    "react": "^18.1.0",
+    "react-dom": "^18.1.0",
+    "typescript": "^4.6.4"
+  },
+  "peerDependencies": {
+    "react": ">=17",
+    "react-dom": ">=17"
+  }
+}
