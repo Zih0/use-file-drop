@@ -2,6 +2,8 @@
 
 A simple hook for drag and drop file in react.
 
+[![NPM](https://img.shields.io/npm/v/@zih0/use-file-drop.svg)](https://www.npmjs.com/package/@zih0/use-file-drop) [![JavaScript Style Guide](https://img.shields.io/badge/code_style-standard-brightgreen.svg)](https://standardjs.com)
+
 ## Installation
 
 ```sh
