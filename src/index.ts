@@ -69,7 +69,7 @@ function useFileDrop(options?: IOptions) {
     if (!inputRef.current || !options) return;
 
     if (options.accept) {
-      inputRef.current.parentElement?.setAttribute('accept', options.accept);
+      inputRef.current.setAttribute('accept', options.accept);
     }
 
     if (options.multiple) {
