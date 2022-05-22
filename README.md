@@ -25,8 +25,8 @@ const App () => {
 
   return (
     <div>
-      <input ref={inputRef} />
-      <label ref={labelRef}>
+      <input ref={inputRef} id="upload" />
+      <label ref={labelRef} htmlFor="upload">
         {isDragActive ? <span>Drop the file!</span> : <span>Drag and drop the file.</span>}
       </label>
     </div>
