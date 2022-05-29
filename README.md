@@ -23,7 +23,7 @@ import React, { useEffect } from 'react';
 import useFileDrop from '@zih0/use-file-drop';
 
 const App () => {
-  const { inputRef, labelRef, files, isDragActive } = useInputFile();
+  const { inputRef, labelRef, files, isDragActive } = useFileDrop();
 
   return (
     <div>

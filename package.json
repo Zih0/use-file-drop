@@ -1,6 +1,6 @@
 {
   "name": "@zih0/use-file-drop",
-  "version": "0.0.5",
+  "version": "0.0.6",
   "description": "react hook for drag & drop input file",
   "homepage": "https://github.com/Zih0/use-file-drop",
   "source": "src/index.ts",
